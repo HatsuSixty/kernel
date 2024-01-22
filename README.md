@@ -4,7 +4,7 @@ A simple multiboot-compliant kernel written in C++.
 
 ## Building and Running
 
-You will need to have an i686-elf binutils/gcc toolchain available in order to compile this project. You will also need to have qemu to use the `run` functionality of the build script.
+You will need to have an i686-elf binutils/gcc toolchain available in your $PATH in order to compile this project. You will also need to have qemu to use the `run` functionality of the build script.
 
 ```console
 $ ./build.sh iso run
